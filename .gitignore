@@ -134,7 +134,7 @@ void loop() {
   }
 
   // Now we can publish stuff!
-  Serial.print(F("\nSending photocell val "));
+  Serial.print(F("\nSending photocell value "));
   Serial.print(x);
   Serial.print("...");
   if (! photocell.publish(x++)) {
