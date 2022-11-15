@@ -4,7 +4,7 @@ This Task reads Adfruit io Cloud dashboard and using NodeMCU ESP8266 controller 
 First of all connect the NodeMCU ESP8266 module to your PC or laptop using the USB cable provided with it. 
 Your ArduinoIDE needs to know that you want to use this NodeMcu module. That is, you need to select the right board.
 
-#  About ESP 8266
+# Regarding ESP 8266
 The ESP8266 WiFi Module is a self contained SOC with integrated TCP/IP protocol stack that can give any microcontroller access to your WiFi network. The ESP8266 is capable of either hosting an application or offloading all WiFi networking functions from another application processor. Each ESP8266 module comes pre-programmed with an AT command set firmware, meaning, you can simply hook this up to your Arduino device and get about as much WiFi-ability as a WiFi Shield offers (and that's just out of the box)! The ESP8266 module is an extremely cost effective board with a huge, and ever growing, community.
 
 This module has a powerful enough on-board processing and storage capability that allows it to be integrated with the sensors and other application specific devices through its GPIOs with minimal development up-front and minimal loading during runtime. Its high degree of on-chip integration allows for minimal external circuitry, including the front-end module, is designed to occupy minimal PCB area. The ESP8266 supports APSD for VoIP applications and Bluetooth co-existance interfaces, it contains a self-calibrated RF allowing it to work under all operating conditions, and requires no external RF parts.
